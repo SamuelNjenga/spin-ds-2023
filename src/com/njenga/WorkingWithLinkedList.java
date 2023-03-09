@@ -11,14 +11,15 @@ public class WorkingWithLinkedList {
         linkedList.addFirst(new Person("Luzi", 64));
         linkedList.addLast(new Person("Suzzie", 19));
         ListIterator<Person> personListIterator = linkedList.listIterator();
-        while (personListIterator.hasNext()){
+        while (personListIterator.hasNext()) {
             System.out.println(personListIterator.next());
         }
         System.out.println("--------------");
-        while (personListIterator.hasPrevious()){
+        while (personListIterator.hasPrevious()) {
             System.out.println(personListIterator.previous());
         }
     }
+
     public static class Person {
         private final String name;
         private final int age;
@@ -27,6 +28,7 @@ public class WorkingWithLinkedList {
             this.name = name;
             this.age = age;
         }
+
         public String toString() {
             return "Person [name=" + name + ", age=" + age + "]";
         }

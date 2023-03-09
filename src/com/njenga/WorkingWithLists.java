@@ -6,7 +6,7 @@ import java.util.List;
 public class WorkingWithLists {
     public static void main(String[] args) {
         List<String> colorsUnmodifiable = List.of("blue", "yellow");
-       // colorsUnmodifiable.add("red"); -> Results in an error
+        // colorsUnmodifiable.add("red"); -> Results in an error
         List<String> colors = new ArrayList<>();
         colors.add("Purple");
         colors.add("Green");
