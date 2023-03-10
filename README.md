@@ -1,11 +1,11 @@
 # spin-ds-2023
-<br>
+<br />
 ## Data Structures are just nice.
-<br>
+<br />
 ### Especially when interacting with these data structures as well as the API functionalities which come in-built.
-<br>
+<br />
 ### Java Language takes them to a brand new level. 
-<br> 
+<br /> 
 Managing data using Arrays, 2D Arrays, Sets, ArrayList, LinkedList, Maps and many more. :fist:
-<br>
+<br />
 Author : Samuel Njenga
